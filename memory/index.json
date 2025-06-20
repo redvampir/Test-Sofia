@@ -1,9 +1,9 @@
 [
   {
-    "path": "memory/profile.md",
-    "title": "Profile",
-    "type": "profile",
-    "lastModified": "2025-06-20T12:17:40.645Z",
-    "description": "role: developer goal: Improve and test Sofia’s memory system"
+    "path": "memory/lessons/01_intro.md",
+    "type": "lesson",
+    "title": "📘 Урок 1: Введение в веб-разработку",
+    "description": " ### 🎯 Цель",
+    "lastModified": "2025-06-20T13:35:52.323Z"
   }
 ]
