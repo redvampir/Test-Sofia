@@ -23,22 +23,16 @@
   },
   {
     "path": "memory/plan_checklist.md",
-    "type": "plan",
-    "title": "Plan Checklist",
+    "type": "lesson",
+    "title": "✅ Чеклист улучшений памяти Sofia",
     "description": " ### 🔧 Исправления",
-    "lastModified": "2025-06-20T22:50:06.027Z"
+    "lastModified": "2025-06-20T22:52:32.860Z"
   },
   {
     "path": "memory/lessons/04_css_basics.md",
     "type": "lesson",
     "title": "04 Css Basics",
     "description": " ## 📌 Цель",
-    "lastModified": "2025-06-20T22:50:06.027Z"
-  },
-  {
-    "path": "memory/plan.md",
-    "title": "Plan",
-    "type": "plan",
     "lastModified": "2025-06-20T22:50:06.027Z"
   }
 ]
