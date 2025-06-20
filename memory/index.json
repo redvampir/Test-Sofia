@@ -1,18 +1,9 @@
 [
   {
-    "path": "memory/test.md",
-    "title": "Test lesson",
-    "lastModified": "2025-06-20T12:17:38.882Z"
-  },
-  {
-    "path": "memory/test.txt",
-    "title": "Text lesson",
-    "lastModified": "2025-06-20T12:17:38.882Z"
-  },
-  {
     "path": "memory/profile.md",
     "title": "Profile",
-    "type": "profile",
-    "lastModified": "2025-06-20T12:17:38.882Z"
+    "type": "lesson",
+    "lastModified": "2025-06-20T12:17:39.543Z",
+    "description": "role: developer goal: Improve and test Sofia’s memory system"
   }
 ]
