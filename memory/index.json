@@ -5,15 +5,5 @@
     "type": "profile",
     "lastModified": "2025-06-20T12:17:40.645Z",
     "description": "role: developer goal: Improve and test Sofia’s memory system"
-  },
-  {
-    "path": "memory/test.md",
-    "title": "Test lesson",
-    "lastModified": "2025-06-20T12:17:40.645Z"
-  },
-  {
-    "path": "memory/test.txt",
-    "title": "Text lesson",
-    "lastModified": "2025-06-20T12:17:40.645Z"
   }
 ]
