@@ -10,33 +10,5 @@
   {
     "path": "memory/profile.md",
     "title": "Профиль ученика"
-  },
-  {
-    "path": "memory/lessons/01_intro.md",
-    "title": "Урок 1: Введение в веб-разработку"
-  },
-  {
-    "path": "memory/lessons/02_html_basics.md",
-    "title": "Урок 2: Основы HTML"
-  },
-  {
-    "path": "memory/profile.md",
-    "title": "Профиль ученика"
-  },
-  {
-    "path": "memory/lessons/01_intro.md",
-    "title": "Урок 1: Введение в веб-разработку"
-  },
-  {
-    "path": "memory/lessons/02_html_basics.md",
-    "title": "Урок 2: Основы HTML"
-  },
-  {
-    "path": "memory/profile.md",
-    "title": "Профиль ученика"
-  },
-  {
-    "path": "memory/plan.md",
-    "title": "Расширенный план обучения веб-разработке"
   }
 ]
