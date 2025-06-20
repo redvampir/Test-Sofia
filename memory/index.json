@@ -10,5 +10,12 @@
   {
     "path": "memory/profile.md",
     "title": "Профиль ученика"
+  },
+  {
+    "path": "memory/lessons/03_devtools.md",
+    "type": "lesson",
+    "title": "🛠️ Урок 3: Инструменты разработчика",
+    "description": " ## 🎯 Цель",
+    "lastModified": "2025-06-20T22:12:20.468Z"
   }
 ]
