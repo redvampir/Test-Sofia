@@ -43,9 +43,10 @@
     "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
-    "path": "memory/plan.md",
-    "title": "Plan",
-    "type": "plan",
-    "lastModified": "2025-06-20T22:57:36.421Z"
+    "path": "memory/tasks/restore-context.md",
+    "type": "context",
+    "title": "🧠 Codex Task: Auto Context Restoration in GPT Plugin",
+    "description": " ### 📌 Goal",
+    "lastModified": "2025-06-20T23:16:28.762Z"
   }
 ]
