@@ -1,62 +1,67 @@
-## 🧠 Codex Task: Auto Context Restoration in GPT Plugin
+## 🧠 Codex Task: Auto Context Restoration in GPT Plugin (v2)
 
 ### 📌 Goal
-Implement a function that allows GPT to **automatically detect and restore lost context** by reading key memory files from the repo (such as `index.json`, `plan.md`, `profile.md`, etc.).
+Update the GPT plugin so that it can **automatically detect and restore lost context** more accurately and with safer conditions, including debug/testing mode triggers.
 
 ---
 
-### 🔧 Function to Implement
+### 🔧 Function to Implement (Core logic)
 
 ```js
-async function restoreContext() {
-  // 1. Read index.json
+async function restoreContext(debug = false) {
   const index = await readFile("memory/index.json");
+  const planPath = index?.plan;
+  const profilePath = index?.profile;
+  const currentLessonPath = index?.currentLesson;
 
-  // 2. From index, extract paths to plan, profile, last lesson
-  const planPath = index["plan"];
-  const profilePath = index["profile"];
-  const currentLessonPath = index["currentLesson"];
-
-  // 3. Attempt to read each file
   const plan = planPath ? await readFile(planPath) : null;
   const profile = profilePath ? await readFile(profilePath) : null;
   const lesson = currentLessonPath ? await readFile(currentLessonPath) : null;
 
-  // 4. Return a context object
-  return {
-    plan,
-    profile,
-    currentLesson: lesson
-  };
+  if (debug) {
+    console.log("[DEBUG] Restored context:", { planPath, profilePath, currentLessonPath });
+  }
+
+  return { plan, profile, currentLesson: lesson };
 }
 ```
 
 ---
 
-### 📂 Required Files
-
-- `index.json` should contain:
-```json
-{
-  "plan": "memory/plan.md",
-  "profile": "memory/profile.md",
-  "currentLesson": "memory/lessons/04_example.md"
-}
-```
-
-- `readFile(path)` should be a helper that fetches from GitHub based on user's token and repo.
+### 🧪 Debug / Testing Mode Enhancements
+- Add optional `debug = true` parameter to log restoration steps.
+- Log warnings if any files are missing or empty.
+- If in test mode, prompt user before restoring: "Context may be missing. Attempt to restore?"
 
 ---
 
-### 📜 Instruction.md Enhancement (Optional)
+### ⚡ Expanded Triggers for Auto-Restoration
 
-```md
-11. If context is incomplete, GPT automatically calls `restoreContext()` to reload plan, profile, and lesson from memory.
+#### ✅ Safe Triggers
+1. GPT outputs: "What lesson?", "Who are you?", or other signs of amnesia.
+2. `index.json`, `plan.md`, or `profile.md` are `null`, empty, or failed to load.
+3. A new session (first few turns).
+4. A user message such as: "Restore context", "Did you forget?", or "Load our plan."
+5. Internal GPT session reaches 3000+ tokens since last memory read.
+6. GPT finishes a large code or lesson and loses awareness of last files.
+
+#### 🧪 Debugging Triggers (Only in Test Mode)
+7. After memory read/write fails.
+8. After user uploads a new index or plan file.
+9. If user types `!debug-restore` or similar command.
+
+---
+
+### 📜 Instruction.md Suggestion
+```
+11. GPT must call `restoreContext()` when context is lost (as defined by triggers). If in testing mode, confirm with user.
 ```
 
 ---
 
 ### ✅ Acceptance Criteria
-- GPT auto-restores context if critical memory is missing.
-- Errors are handled (e.g., missing file).
-- Works with any valid GitHub memory structure.
+- Auto-restores context only when one or more safe triggers are active.
+- Supports debug/test mode with console logging and optional prompts.
+- Avoids unnecessary or repeated context fetches.
+- Stable integration with `readFile()` and user-specific GitHub repo/token.
+- Designed for expandability (e.g., use with dynamic memory models).
