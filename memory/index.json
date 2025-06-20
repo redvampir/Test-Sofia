@@ -2,44 +2,50 @@
   {
     "path": "memory/lessons/01_intro.md",
     "title": "Урок 1: Введение в веб-разработку",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/lessons/02_html_basics.md",
     "title": "Урок 2: Основы HTML",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/profile.md",
     "title": "Профиль ученика",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/lessons/03_devtools.md",
     "type": "lesson",
     "title": "03 Devtools",
     "description": " ## 🎯 Цель",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/plan_checklist.md",
     "type": "plan",
     "title": "Plan Checklist",
     "description": " ### 🔧 Исправления",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/lessons/04_css_basics.md",
     "type": "lesson",
     "title": "04 Css Basics",
     "description": " ## 📌 Цель",
-    "lastModified": "2025-06-20T22:52:33.844Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
   },
   {
     "path": "memory/design.md",
-    "type": "lesson",
-    "title": "🧩 Распределение ответственности: Инструкции vs Плагин",
+    "type": "file",
+    "title": "Design",
     "description": " ### 🔁 Что реализуется через **плагин**",
-    "lastModified": "2025-06-20T22:57:35.451Z"
+    "lastModified": "2025-06-20T22:57:36.421Z"
+  },
+  {
+    "path": "memory/plan.md",
+    "title": "Plan",
+    "type": "plan",
+    "lastModified": "2025-06-20T22:57:36.421Z"
   }
 ]
