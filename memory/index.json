@@ -2,30 +2,30 @@
   {
     "path": "memory/lessons/01_intro.md",
     "title": "Урок 1: Введение в веб-разработку",
-    "lastModified": "2025-06-20T22:12:43.942Z"
+    "lastModified": "2025-06-20T22:48:46.337Z"
   },
   {
     "path": "memory/lessons/02_html_basics.md",
     "title": "Урок 2: Основы HTML",
-    "lastModified": "2025-06-20T22:12:43.942Z"
+    "lastModified": "2025-06-20T22:48:46.337Z"
   },
   {
     "path": "memory/profile.md",
     "title": "Профиль ученика",
-    "lastModified": "2025-06-20T22:12:43.942Z"
+    "lastModified": "2025-06-20T22:48:46.337Z"
   },
   {
     "path": "memory/lessons/03_devtools.md",
     "type": "lesson",
     "title": "03 Devtools",
     "description": " ## 🎯 Цель",
-    "lastModified": "2025-06-20T22:12:43.942Z"
+    "lastModified": "2025-06-20T22:48:46.337Z"
   },
   {
     "path": "memory/plan_checklist.md",
-    "type": "lesson",
-    "title": "✅ Чеклист улучшений памяти Sofia",
+    "type": "plan",
+    "title": "Plan Checklist",
     "description": " ### 🔧 Исправления",
-    "lastModified": "2025-06-20T22:48:45.306Z"
+    "lastModified": "2025-06-20T22:48:46.337Z"
   }
 ]
