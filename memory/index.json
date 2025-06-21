@@ -1,5 +1,23 @@
 [
   {
+    "path": "memory/profile.md",
+    "type": "profile",
+    "title": "Профиль ученика",
+    "lastModified": "2025-06-20T23:28:39.852Z"
+  },
+  {
+    "path": "memory/lessons/04_example.md",
+    "type": "lesson",
+    "title": "Example Lesson"
+  },
+  {
+    "path": "memory/plan_checklist.md",
+    "type": "lesson",
+    "title": "✅ Чеклист улучшений памяти Sofia",
+    "description": "### 🔧 Исправления - [x] Не затирать index.json при обновлении",
+    "lastModified": "2025-06-21T07:36:07.427Z"
+  },
+  {
     "path": "memory/lessons/01_intro.md",
     "title": "Урок 1: Введение в веб-разработку",
     "lastModified": "2025-06-20T23:28:39.852Z"
@@ -10,22 +28,10 @@
     "lastModified": "2025-06-20T23:28:39.852Z"
   },
   {
-    "path": "memory/profile.md",
-    "title": "Профиль ученика",
-    "lastModified": "2025-06-20T23:28:39.852Z"
-  },
-  {
     "path": "memory/lessons/03_devtools.md",
     "type": "lesson",
     "title": "03 Devtools",
     "description": " ## 🎯 Цель",
-    "lastModified": "2025-06-20T23:28:39.852Z"
-  },
-  {
-    "path": "memory/plan_checklist.md",
-    "type": "plan",
-    "title": "Plan Checklist",
-    "description": " ### 🔧 Исправления",
     "lastModified": "2025-06-20T23:28:39.852Z"
   },
   {
