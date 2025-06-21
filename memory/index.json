@@ -13,10 +13,10 @@
   },
   {
     "path": "memory/plan_checklist.md",
-    "type": "plan",
-    "title": "Plan Checklist",
+    "type": "lesson",
+    "title": "✅ Чеклист улучшений памяти Sofia",
     "description": "### 🔧 Исправления - [x] Не затирать index.json при обновлении",
-    "lastModified": "2025-06-21T07:36:08.393Z"
+    "lastModified": "2025-06-21T08:31:48.358Z"
   },
   {
     "path": "memory/lessons/01_intro.md",
